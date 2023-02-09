@@ -723,10 +723,14 @@ footer .copy p {
   background: var(--clr-primary-10);
 }
 
+.about-info {
+  margin-top: 3rem;
+}
+
 .section-title {
   display: grid;
   place-items: center;
-  max-width: 30rem;
+  max-width: 60rem;
   margin: 0 auto;
   width: 100%;
 }
