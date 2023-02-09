@@ -355,7 +355,7 @@ aside.show {
 // about section
 
 .about-img {
-  width: 70%;
+  width: 100%;
   max-width: 400px;
   margin: 0 auto;
 }
@@ -754,7 +754,7 @@ footer {
   }
 }
 
-@media screen and(min-width:992px) {
+@media screen and (min-width: 992px) {
   section {
     padding: 5em 4em;
   }

@@ -115,9 +115,9 @@ P {
     font-size: 1rem;
   }
   h1,
-h2,
-h3,
-h4 {
+  h2,
+  h3,
+  h4 {
     line-height: 1;
   }
 }
@@ -330,7 +330,7 @@ aside.show {
 }
 
 .about-img {
-  width: 70%;
+  width: 100%;
   max-width: 400px;
   margin: 0 auto;
 }
@@ -680,7 +680,7 @@ footer .copy p {
     height: 100%;
   }
   .hero-img::before,
-.about-img::before {
+  .about-img::before {
     content: "";
     position: absolute;
     width: 100%;
