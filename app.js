@@ -29,7 +29,7 @@ const fixedNavbarOnScroll = () => {
   });
 };
 
-const setDate = () => {
+const setFooterDate = () => {
   const dateEl = document.querySelector(".date");
   const date = new Date().getFullYear();
 
@@ -38,7 +38,7 @@ const setDate = () => {
 
 // event listener
 window.addEventListener("DOMContentLoaded", () => {
-  setDate();
+  setFooterDate();
   displayMobileNav();
   fixedNavbarOnScroll();
 });
