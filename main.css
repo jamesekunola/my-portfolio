@@ -455,6 +455,8 @@ aside.show {
   height: 15rem;
   -o-object-fit: cover;
   object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
 }
 
 .project:hover .project-img {
@@ -851,11 +853,17 @@ footer .copy p {
   background: var(--clr-grey-10);
   border-radius: var(--radius);
   border: 1px solid var(--clr-primary-6);
+  position: relative;
 }
 
 .project-container img {
   border-top-left-radius: var(--radius);
   border-top-right-radius: var(--radius);
+  height: 15rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
 }
 
 .project-container {
@@ -879,7 +887,7 @@ footer .copy p {
 }
 
 .project-details {
-  padding: 2rem 1.5rem;
+  padding: 2.5rem 1.5rem 2rem;
 }
 .project-details p {
   font-size: 0.8rem;
@@ -889,6 +897,11 @@ footer .copy p {
   display: grid;
   grid-template-columns: 1fr 1fr;
   color: var(--clr-primary-5);
+  padding: 1rem 1.5rem;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 
 .project-footer a {
