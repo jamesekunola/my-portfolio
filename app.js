@@ -58,7 +58,7 @@ With React Router, the app enables navigation between different pages. When a us
   },
   {
     img: "/assets/multi-step.jpg",
-    web: null,
+    web: "https://willowy-moonbeam-c60a39.netlify.app/",
     name: "Multi-step form",
     tools: ["react", "redux"],
     desc: `I am currently working on a Multi-step Form project that leverages Redux for state management. With Redux, the form's state is effectively managed and synchronized throughout the different steps. This allows users to navigate back to previous steps, make necessary corrections, and observe the real-time updates of their changes. By utilizing Redux, the form maintains a consistent and centralized data flow, enhancing the user experience and ensuring seamless interaction within the form.`,
